@@ -220,7 +220,7 @@ footer *{
 }
 
 .inner-footer .footer-third a:hover { 
-    font-weight: 600;
+    text-decoration: underline;
     
 }
 
