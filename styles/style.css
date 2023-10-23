@@ -191,7 +191,7 @@ footer *{
 
 .inner-footer .footer-third{
     width: calc((21*(1/3)) - 20px);
-    margin-right: 50px;
+    margin-right: 70px;
     float: left;
     height: 100%;
 }
