@@ -80,77 +80,28 @@ nav a:hover::before {
     width: 100%;
 }
 
-/* HERO CSS STARTS HERE */
-/* HERO CSS STARTS HERE */
-/* HERO CSS STARTS HERE */
-/* HERO CSS STARTS HERE */
 
-#hero html {
-    font-size: 25px;
-}
-#hero {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.384)), url('../public/images/green-herobg.jpg') no-repeat center / cover;
-    color: white;
-}
 
-.container-hero{
-    width: 90%;
-    height: 70%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 100px;
 
-}
 
-.container-hero .info h1{
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
 
-.container-hero .info h2{
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
 
-}
 
-.container-hero .info p{
-    font-size: 1.3rem;
-    max-width: 60%;
-    font-style: italic;
-    font-weight: 100;
-}
 
-.container-hero .info a{
-    text-decoration: none;
-    display: inline-block;
-    background-color: #618264;
-    border-radius: 4px;
-    font-size: 1.3rem;
-    font-weight: 200px;
-    padding: 5px;
-    margin-top: 2rem;
-    color: white; 
-}
 
-.container-hero .info a:hover {
-    background-color: #4b614d;
-    font-weight: 550;
-}
-@media only screen and (max-width: 768px){
-    html{
-        font-size:10px;
-    }
-    
-}
+
+
+
+
+
+
+
+
 
 /* FOOTER CSS STARTS HERE */
-
+/* FOOTER CSS STARTS HERE */
+/* FOOTER CSS STARTS HERE */
+/* FOOTER CSS STARTS HERE */
 
 
 footer *{

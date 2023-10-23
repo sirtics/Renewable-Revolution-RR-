@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    
+}
+
+
+header {
+    background-color:#79AC78;
+    border: none;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    margin-left: 5px;
+    height: 85px;
+    width: 85px;
+}
+
+nav {
+    float: right;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 24px;
+    position: relative;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 230ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* SLIDE DECK CSS */
+/* SLIDE DECK CSS */
+/* SLIDE DECK CSS */
+/* SLIDE DECK CSS */
+
+/* STUFF TO FIX: 
+
+- SLIDE IMAGES ARE DIFFERENT SIZES AND THE DOTS GO BELOW THE IMAGE SOMETIMES
+- FIND ACTUAL IMAGES INSTEAD OF PLACEHOLDERS
+
+*/
+
+* slide-deck {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-slides {
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.384)), url('../public/images/green-herobg.jpg') no-repeat center / cover;
+    
+}
+
+.swiper {
+    width: 80%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #79AC78;
+
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #79AC78;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER CSS STARTS HERE */
+/* FOOTER CSS STARTS HERE */
+/* FOOTER CSS STARTS HERE */
+/* FOOTER CSS STARTS HERE */
+
+
+footer *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #618264;
+}
+
+.inner-footer{
+    display:block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner-footer .logo-container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.inner-footer .logo-container img {
+    width: 80px;
+    height: auto;
+
+}
+
+.inner-footer .footer-third{
+    width: calc((21*(1/3)) - 20px);
+    margin-right: 70px;
+    float: left;
+    height: 100%;
+}
+
+.inner-footer .footer-third:last-child{
+    margin-right:0;
+}
+
+.inner-footer .footer-third h1 {
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight:300;
+    text-decoration: underline;
+}
+
+.inner-footer .footer-third a {
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 100%;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+
+.inner-footer .footer-third a:hover { 
+    text-decoration: underline;
+    
+}
+
+.inner-footer .footer-third li {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.inner-footer .footer-third span {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100px;
+    padding-top: 20px;
+}
+
+@media(max-width: 600px){
+    .footer .inner-footer{
+        width: 90%;
+    }
+    .inner-footer .logo-container, inner-footer .footer-third{
+        width: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+.footer-third span a .phs-styling{
+    color: orangered;
+}

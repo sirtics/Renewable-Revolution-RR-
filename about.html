@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/about.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>About Page - RR</title>
 </head>
 <body>
@@ -15,7 +22,7 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./goal.html">Our Goal</a></li>
                 <li><a href="./whygogreen.html">Why Go Green?</a></li>
-                <li><a href="./about.html">Contact</a></li>
+                <li><a href="./about.html">About Us</a></li>
                 <li><a href="#"></a></li>
     
             </ul>
@@ -27,7 +34,34 @@
       </header>
 
 
+      <section class="slide-deck">
+        <div class="container-slides">
+          <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./public/images/rr-banner.png" alt="sample picture"/></div>
+                <div class="swiper-slide"><img src="./public/images/green-herobg.jpg" alt="sample picture"/></div>
+                <div class="swiper-slide"><img src="./public/images/green-herobg.jpg" alt="sample picture"/></div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
 
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              
+            </div>
+        </div>
+
+
+
+
+
+      </section>
 
 
 
@@ -79,5 +113,33 @@
           </div>
         </div>
       </footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+  
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+
+  },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Nav arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  });
+</script>
 </body>
 </html>
