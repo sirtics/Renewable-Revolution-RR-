@@ -104,7 +104,7 @@ nav a:hover::before {
     align-items: center;
     justify-content: center;
     margin-left: 100px;
-
+    background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.384)), url("../public/images/green-herobg.jpg") no-repeat center / cover;
 }
 
 .container-hero .info h1{
